@@ -1,0 +1,63 @@
+/* ********* */
+/* @HOME */
+/* ********* */
+
+.contenido1{
+
+    line-height : 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    padding-top: 8em;
+
+
+};
+
+.container{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+   
+};
+
+.textoAzul{
+    color: map-get($colores , azulOscuro );
+};
+
+.boton{
+    background-color: map-get($colores , azulOscuro );
+    padding: 10px;
+    width: 150px;
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px;
+    border: 0px;
+    color: white;
+    font-family: arial;
+    margin-top: 2em;
+    
+};
+
+.imagen1{
+    background-color: map-get($colores , azulClaro);
+   
+};
+
+
+.contenido2{
+    background-color: map-get($colores , blanco );
+    max-width: 5000px;
+    margin-left: 3em;
+    padding-top: 10em;
+    display: flex;
+    flex-direction: row;
+    
+
+};
+
+body{
+    background-color: map-get($colores, azulClaro );
+};
+
